@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/app.css">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <header>
+    <nav class="wow slideInDown nav">
+      <div class="ico">
+          <i class="fa fa-mercury mercurio"></i>
+      </div>
+      <a href="#sobre">sobre</a>
+      <a href="#trabajos">trabajos</a>
+      <a href="#contacto">contacto</a>
+    </nav>
+    <div class="logo ">
+        <h1 class="wow zoomIn" data-wow-delay=".1s">fede atanasoff</h1>
+        <h4 class="desc wow zoomIn" data-wow-delay=".3s">desarrollador web</h4>
+    </div>
+  </header>
+
+  <section class="sobre" id="sobre">
+        <div class="contenedor sobremi">
+            <article class="titulo">
+                <h2 class="wow slideInUp">sobre mi</h2>
+            </article>
+            <article class="foto wow slideInUp">
+                <img src="https://pbs.twimg.com/profile_images/856180685257756674/3H98JzAs_400x400.jpg" alt="">
+            </article>
+            <article class="descripcion ">
+                <p class="wow slideInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem distinctio veritatis earum fuga, temporibus ex adipisci rerum molestias voluptate, soluta necessitatibus iusto neque minima vitae, repellendus, dolor nesciunt ipsa aut.</p>
+                <div class="redes">
+                    <a href=""><img src="img/redes/tw.svg" class="svg tw wow slideInUp"  data-wow-delay=".1s" alt=""></a>
+                    <a href=""><img src="img/redes/githubb.svg" class="svg git wow slideInUp"  data-wow-delay=".2s" alt=""></a>
+                    <a href=""><img src="img/redes/linkedinb.svg" class="svg linkedin wow slideInUp" data-wow-delay=".3s"  alt=""></a>
+
+                </div>
+            </article>
+        </div>
+
+  </section>
+
+  <section class="trabajos" id="trabajos">
+      <div class="contenedor trabajo">
+          <article class="titulo">
+              <h2 class="wow slideInUp">trabajos</h2>
+          </article>
+          <article class="works wow flipInX" data-wow-delay=".1s">
+              <img src="img/trabajos/desktopreddo.png" alt="">
+              <div class="hovertext">
+                  <h4 class="work-titulo">Reddo Traducciones</h4>
+                  <div class="tecnologias">
+                      <img src="img/trabajos/tecnos/wordpressb.svg" alt="" class="icon wp">
+                      <img src="img/trabajos/tecnos/css3b.svg" alt="" class="icon css3">
+                      <img src="img/trabajos/tecnos/bootstrapb.svg" alt="" class="icon bootstrap">
+
+                  </div>
+                  <div class="link">
+                      <a href="#"><img src="img/trabajos/link.svg" class="visitar" alt=""></a>
+                  </div>
+              </div>
+          </article>
+
+          <article class="works works wow flipInX" data-wow-delay=".3s">
+              <img src="img/trabajos/chloe.png" alt="">
+              <div class="hovertext">
+                  <h4 class="work-titulo">titulo de pagina</h4>
+                  <div class="tecnologias">
+                      <img src="img/trabajos/tecnos/mailchimp.svg" alt="" class="icon chimp">
+
+                      <img src="img/trabajos/tecnos/css3b.svg" alt="" class="icon css3">
+                      <img src="img/trabajos/tecnos/bootstrapb.svg" alt="" class="icon bootstrap">
+
+                  </div>
+                  <div class="link">
+                      <a href="#"><img src="img/trabajos/link.svg" class="visitar" alt=""></a>
+                  </div>
+              </div>
+          </article>
+      </div>
+  </section>
+
+  <section class="contact" id="contacto">
+      <div class="contenedor contacto">
+          <article class="titulo">
+              <h2 class="wow slideInUp">contacto</h2>
+          </article>
+          <form action="" method="POST" class="formulario" id="formulario">
+            <input class="wow bounceIn" type="text" name="nombre" placeholder="nombre..." id="nombre" data-wow-delay=".1s">
+            <input class="wow bounceIn" type="email" name="email" placeholder="email..." id="email" data-wow-delay=".2s">
+            <textarea class="wow bounceIn" name="mensaje" placeholder="mensaje..." id="mensaje" data-wow-delay=".3s"></textarea>
+
+
+            <div class="msj-error " id="error">
+            </div>
+            
+            <input type="submit" class="boton wow bounceIn" value="enviar" data-wow-delay=".3s">
+            </form>
+      </div>
+  </section>
+  <footer>
+      <div class=" contenedor redes">
+          <a href=""><img src="img/redes/tw.svg" class="svg tw wow bounceInUp"  data-wow-delay=".1s" alt=""></a>
+          <a href=""><img src="img/redes/githubb.svg" class="svg git wow bounceInUp"  data-wow-delay=".2s" alt=""></a>
+          <a href=""><img src="img/redes/linkedinb.svg" class="svg linkedin wow bounceInUp" data-wow-delay=".3s"  alt=""></a>
+      </div>
+  </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/wow.min.js"></script>
+
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
