@@ -445,7 +445,7 @@ template {
     height: 100px;
     position: absolute;
     left:50%; top:50%;
-    background: url('..img/loader.gif') no-repeat center 0;
+    background: url('../img/loader.gif') no-repeat center 0;
     margin:-50px 0 0 -50px;
 }
 
