@@ -692,8 +692,7 @@ header {
     flex: 1 1 75%;
     padding: 30px 20px; }
     .sobremi .descripcion p{
-      line-height: 27px;
-    }
+      line-height: 27px;}
     .sobremi .descripcion .redes {
       display: -webkit-box;
       display: -ms-flexbox;
