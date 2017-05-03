@@ -432,39 +432,21 @@ template {
   font-family: 'Orbitron';
   box-sizing: border-box; }
 
-.spinner{
-    width: 80px;
-    height: 80px;
-    
-    border: 2px solid #f3f3f3;
-    border-top:3px solid #f25a41;
-    border-radius: 100%;
-    
+/* preloader */
+#preloader {
+    position: fixed;
+    top:0; left:0;
+    right:0; bottom:0;
+    background: #000;
+    z-index: 100;
+}
+#loader {
+    width: 100px;
+    height: 100px;
     position: absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right: 0;
-    margin: auto;
-    
-    animation: spin 1s infinite linear;
-}
-
-@keyframes spin {
-    from{
-        transform: rotate(0deg);
-    }to{
-        transform: rotate(360deg);
-    }
-}
-
-#overlay{
-  height:100%;
-  width:100%;
-  background:rgba(0, 0, 0, 1);
-  position:fixed;
-  left:0;
-  top:0;
+    left:50%; top:50%;
+    background: url('..img/loader.gif') no-repeat center 0;
+    margin:-50px 0 0 -50px;
 }
 
 html, body {
