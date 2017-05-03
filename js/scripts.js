@@ -69,11 +69,7 @@ function validarFormulario(e){
     validarNombre(e);
     validarCorreo(e);
     validarMensaje(e);
-    
     e.preventDefault();
-    
-    
-
 }
 
 formulario.addEventListener('submit', validarFormulario);

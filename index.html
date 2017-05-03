@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- animate css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <!-- sweetalert css -->
+  <link rel="stylesheet" href="css/sweetalert.css">
   <title>Fede Atanasoff</title>
 </head>
 <body>
@@ -36,14 +38,14 @@
                 <h2 class="wow slideInUp">sobre mi</h2>
             </article>
             <article class="foto wow slideInUp">
-                <img src="https://pbs.twimg.com/profile_images/856180685257756674/3H98JzAs_400x400.jpg" alt="">
+                <img src="img/perfil.jpg" alt="">
             </article>
             <article class="descripcion ">
                 <p class="wow slideInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem distinctio veritatis earum fuga, temporibus ex adipisci rerum molestias voluptate, soluta necessitatibus iusto neque minima vitae, repellendus, dolor nesciunt ipsa aut.</p>
                 <div class="redes">
-                    <a href=""><img src="img/redes/tw.svg" class="svg tw wow slideInUp"  data-wow-delay=".1s" alt=""></a>
-                    <a href=""><img src="img/redes/githubb.svg" class="svg git wow slideInUp"  data-wow-delay=".2s" alt=""></a>
-                    <a href=""><img src="img/redes/linkedinb.svg" class="svg linkedin wow slideInUp" data-wow-delay=".3s"  alt=""></a>
+                    <a href="https://twitter.com/fd_atanasoff" target="_blank"><img src="img/redes/tw.svg" class="svg tw wow bounceInUp"  data-wow-delay=".1s" alt=""></a>
+                    <a href="https://github.com/fedeatanasoff" target="_blank"><img src="img/redes/githubb.svg" class="svg git wow bounceInUp"  data-wow-delay=".2s" alt=""></a>
+                    <a href="https://www.linkedin.com/in/federico-atanasoff-2a80a3107/" target="_blank"><img src="img/redes/linkedinb.svg" class="svg linkedin wow bounceInUp" data-wow-delay=".3s"  alt=""></a>
 
                 </div>
             </article>
@@ -97,30 +99,28 @@
               <h2 class="wow slideInUp">contacto</h2>
           </article>
           <form action="" method="POST" class="formulario" id="formulario">
-            <input class="wow bounceIn" type="text" name="nombre" placeholder="nombre..." id="nombre" data-wow-delay=".1s">
-            <input class="wow bounceIn" type="email" name="email" placeholder="email..." id="email" data-wow-delay=".2s">
-            <textarea class="wow bounceIn" name="mensaje" placeholder="mensaje..." id="mensaje" data-wow-delay=".3s"></textarea>
+            <input class="wow bounceIn nombre" type="text" name="nombre" placeholder="nombre..." id="nombre" data-wow-delay=".1s">
+            <input class="wow bounceIn email" type="email" name="email" placeholder="email..." id="email" data-wow-delay=".2s">
+            <textarea class="wow bounceIn mensaje" name="mensaje" placeholder="mensaje..." id="mensaje" data-wow-delay=".3s"></textarea>
 
 
-            <div class="msj-error " id="error">
-            </div>
-            
-            <input type="submit" class="boton wow bounceIn" value="enviar" data-wow-delay=".3s">
+
+            <input type="submit" class="boton wow bounceIn boton_envio" value="enviar" data-wow-delay=".3s">
             </form>
       </div>
   </section>
   <footer>
       <div class=" contenedor redes">
-          <a href=""><img src="img/redes/tw.svg" class="svg tw wow bounceInUp"  data-wow-delay=".1s" alt=""></a>
-          <a href=""><img src="img/redes/githubb.svg" class="svg git wow bounceInUp"  data-wow-delay=".2s" alt=""></a>
-          <a href=""><img src="img/redes/linkedinb.svg" class="svg linkedin wow bounceInUp" data-wow-delay=".3s"  alt=""></a>
+          <a href="https://twitter.com/fd_atanasoff" target="_blank"><img src="img/redes/tw.svg" class="svg tw wow bounceInUp"  data-wow-delay=".1s" alt=""></a>
+          <a href="https://github.com/fedeatanasoff" target="_blank"><img src="img/redes/githubb.svg" class="svg git wow bounceInUp"  data-wow-delay=".2s" alt=""></a>
+          <a href="https://www.linkedin.com/in/federico-atanasoff-2a80a3107/" target="_blank"><img src="img/redes/linkedinb.svg" class="svg linkedin wow bounceInUp" data-wow-delay=".3s"  alt=""></a>
       </div>
   </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/wow.min.js"></script>
-
-<script src="js/scripts.js"></script>
+<script src="js/sweetalert.min.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
