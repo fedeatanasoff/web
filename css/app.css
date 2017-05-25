@@ -703,14 +703,14 @@ header {
       border: 5px solid gray;
       width: 130px;
       height: 130px; }
-  .sobremi .descripcion {
+  .sobremi .desc {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 75%;
     flex: 1 1 75%;
     padding: 30px 20px; }
-    .sobremi .descripcion p{
+    .sobremi .desc p{
       line-height: 27px;}
-    .sobremi .descripcion .redes {
+    .sobremi .desc .redes {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -720,17 +720,17 @@ header {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
-      .sobremi .descripcion .redes .svg {
+      .sobremi .desc .redes .svg {
         width: 50px;
         margin: 30px 20px;
         padding: 10px; }
-      .sobremi .descripcion .redes .tw:hover {
+      .sobremi .desc .redes .tw:hover {
         background-color: #1DA1F2;
         border-radius: 5px; }
-      .sobremi .descripcion .redes .git:hover {
+      .sobremi .desc .redes .git:hover {
         background-color: #181717;
         border-radius: 5px; }
-      .sobremi .descripcion .redes .linkedin:hover {
+      .sobremi .desc .redes .linkedin:hover {
         background-color: #0077B5;
         border-radius: 5px; }
 
